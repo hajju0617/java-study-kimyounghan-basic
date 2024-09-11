@@ -9,6 +9,5 @@ public class ClassStart2 {
         for (int i = 0; i < studentNames.length; i++) {
             System.out.println("이름 : " + studentNames[i] + ", 나이 : " + studentAges[i] + ", 성적 : " + studentGrade[i]);
         }
-
     }
 }
