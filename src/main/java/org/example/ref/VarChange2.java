@@ -25,6 +25,3 @@ public class VarChange2 {
     }
 }
 
-class Data {
-    int value;
-}
