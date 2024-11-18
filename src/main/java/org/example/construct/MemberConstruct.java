@@ -19,5 +19,4 @@ public class MemberConstruct {
 //        this.grade = 50;
         this(name, age, 50);
     }
-
 }
