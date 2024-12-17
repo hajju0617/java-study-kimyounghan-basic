@@ -19,5 +19,4 @@ public class AccessInnerMain {
         // innerAccess()는 public 이므로 외부에서 호출가능.
         data.innerAccess();
     }
-
 }
