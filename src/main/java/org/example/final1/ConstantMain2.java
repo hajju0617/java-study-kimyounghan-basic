@@ -12,7 +12,7 @@ public class ConstantMain2 {
 
     private static void process(int currentUserCount) {
         System.out.println("참여자 수 : " + currentUserCount);
-        if (currentUserCount > 1000) {
+        if (currentUserCount > Constant.MAX_USERS) {
             System.out.println("대기자로 등록.");
         } else {
             System.out.println("게임에 참가.");
