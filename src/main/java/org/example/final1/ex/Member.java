@@ -8,8 +8,11 @@ public class Member {
         this.id = id;
         this.name = name;
     }
-    public void changeData(String id, String name) {
-//        this.id = id;         // 컴파일 오류.
+//    public void changeData(String id, String name) {
+//        //this.id = id;         // 컴파일 오류.
+//        this.name = name;
+//    }
+    public void changeData(String name) {       // 매개변수로도 받지 않음. (제대로 된 메서드)
         this.name = name;
     }
     public void print() {

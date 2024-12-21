@@ -22,5 +22,8 @@ public class DecoDataMain {
                                 // 추천하지 않는 방식 -> why? 클래스 소속인데 인스턴스 소속으로 착각할 수 있음.
 
         DecoData.staticCall();  // 클래스를 통해서 바로 클래스 메서드 접근.
+        System.out.println();
+
+        DecoData.staticCall();
     }
 }
