@@ -1,6 +1,6 @@
-package org.example.poly.ex4;
+package org.example.poly.ex5;
 
-public class Cow extends AbstractAnimal {
+public class Cow implements InterfaceAnimal {
 
     @Override
     public void sound() {
