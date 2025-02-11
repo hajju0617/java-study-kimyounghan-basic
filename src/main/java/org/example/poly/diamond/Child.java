@@ -1,6 +1,6 @@
 package org.example.poly.diamond;
 
-public class Child implements InterfaceA, InterfaceB{
+public class Child implements InterfaceA, InterfaceB {      // 다중 구현.
     @Override
     public void methodA() {
         System.out.println("Child.methodA");
